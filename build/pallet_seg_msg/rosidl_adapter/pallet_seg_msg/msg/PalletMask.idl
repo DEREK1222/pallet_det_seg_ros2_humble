@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pallet_seg_msg/msg/PalletMask.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module pallet_seg_msg {
+  module msg {
+    @verbatim (language="comment", text=
+      "std_msgs/Header header")
+    struct PalletMask {
+      @verbatim (language="comment", text=
+        " Bounding boxes in pixels" "\n"
+        "sensor_msgs/RegionOfInterest[] boxes" "\n"
+        " Integer class IDs for each bounding box" "\n"
+        "int32[] class_ids" "\n"
+        " String class IDs for each bouding box" "\n"
+        "string[] class_names" "\n"
+        " Float probability scores of the class_id" "\n"
+        "float32[] scores" "\n"
+        " Instance masks as Image")
+      sequence<sensor_msgs::msg::Image> masks;
+    };
+  };
+};

@@ -1,0 +1,33 @@
+[1.885s] Invoking command in '/home/derek/work/src/pallet_seg': PYTHONPATH=/home/derek/work/build/pallet_seg/prefix_override:/home/derek/work/install/pallet_seg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pallet_seg build --build-base /home/derek/work/build/pallet_seg/build install --record /home/derek/work/build/pallet_seg/install.log --single-version-externally-managed
+[2.080s] running egg_info
+[2.080s] creating ../../build/pallet_seg/pallet_seg.egg-info
+[2.081s] writing manifest file '../../build/pallet_seg/pallet_seg.egg-info/SOURCES.txt'
+[2.082s] writing manifest file '../../build/pallet_seg/pallet_seg.egg-info/SOURCES.txt'
+[2.082s] running build
+[2.082s] running build_py
+[2.082s] creating /home/derek/work/build/pallet_seg/build
+[2.082s] creating /home/derek/work/build/pallet_seg/build/lib
+[2.082s] creating /home/derek/work/build/pallet_seg/build/lib/pallet_seg
+[2.083s] copying pallet_seg/__init__.py -> /home/derek/work/build/pallet_seg/build/lib/pallet_seg
+[2.083s] copying pallet_seg/solo_detect_all.py -> /home/derek/work/build/pallet_seg/build/lib/pallet_seg
+[2.083s] running install
+[2.083s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.083s]   warnings.warn(
+[2.084s] running install_lib
+[2.084s] creating /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg
+[2.084s] copying /home/derek/work/build/pallet_seg/build/lib/pallet_seg/__init__.py -> /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg
+[2.085s] copying /home/derek/work/build/pallet_seg/build/lib/pallet_seg/solo_detect_all.py -> /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg
+[2.085s] byte-compiling /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg/__init__.py to __init__.cpython-310.pyc
+[2.085s] byte-compiling /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg/solo_detect_all.py to solo_detect_all.cpython-310.pyc
+[2.086s] running install_data
+[2.086s] creating /home/derek/work/install/pallet_seg/share/ament_index
+[2.086s] creating /home/derek/work/install/pallet_seg/share/ament_index/resource_index
+[2.086s] creating /home/derek/work/install/pallet_seg/share/ament_index/resource_index/packages
+[2.086s] copying resource/pallet_seg -> /home/derek/work/install/pallet_seg/share/ament_index/resource_index/packages
+[2.086s] copying package.xml -> /home/derek/work/install/pallet_seg/share/pallet_seg
+[2.086s] copying launch/pallet_seg_altek_cam_launch.py -> /home/derek/work/install/pallet_seg/share/pallet_seg
+[2.086s] running install_egg_info
+[2.087s] Copying ../../build/pallet_seg/pallet_seg.egg-info to /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg-0.0.0-py3.10.egg-info
+[2.088s] running install_scripts
+[2.102s] writing list of installed files to '/home/derek/work/build/pallet_seg/install.log'
+[2.121s] Invoked command in '/home/derek/work/src/pallet_seg' returned '0': PYTHONPATH=/home/derek/work/build/pallet_seg/prefix_override:/home/derek/work/install/pallet_seg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pallet_seg build --build-base /home/derek/work/build/pallet_seg/build install --record /home/derek/work/build/pallet_seg/install.log --single-version-externally-managed

@@ -1,0 +1,6 @@
+{
+  "package_name": "pallet_seg_msg",
+  "non_idl_tuples": [
+    "/home/derek/work/src/pallet_seg_msg:msg/PalletMask.msg"
+  ]
+}

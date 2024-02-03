@@ -1,0 +1,6 @@
+Invoking command in '/home/derek/work/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/derek/work/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/derek/work/install/realsense2_camera_msgs
+Invoked command in '/home/derek/work/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/derek/work/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/derek/work/install/realsense2_camera_msgs
+Invoking command in '/home/derek/work/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derek/work/build/realsense2_camera_msgs -- -j16 -l16
+Invoked command in '/home/derek/work/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derek/work/build/realsense2_camera_msgs -- -j16 -l16
+Invoking command in '/home/derek/work/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/derek/work/build/realsense2_camera_msgs
+Invoked command in '/home/derek/work/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/derek/work/build/realsense2_camera_msgs

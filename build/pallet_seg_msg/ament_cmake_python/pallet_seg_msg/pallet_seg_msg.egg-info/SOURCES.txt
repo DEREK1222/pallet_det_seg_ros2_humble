@@ -1,0 +1,6 @@
+setup.py
+pallet_seg_msg/__init__.py
+pallet_seg_msg.egg-info/PKG-INFO
+pallet_seg_msg.egg-info/SOURCES.txt
+pallet_seg_msg.egg-info/dependency_links.txt
+pallet_seg_msg.egg-info/top_level.txt

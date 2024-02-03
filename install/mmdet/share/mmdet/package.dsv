@@ -1,0 +1,3 @@
+source;share/mmdet/hook/pythonpath.ps1
+source;share/mmdet/hook/pythonpath.dsv
+source;share/mmdet/hook/pythonpath.sh

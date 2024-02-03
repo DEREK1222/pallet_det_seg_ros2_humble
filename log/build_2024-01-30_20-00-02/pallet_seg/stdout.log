@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/pallet_seg/pallet_seg.egg-info
+writing manifest file '../../build/pallet_seg/pallet_seg.egg-info/SOURCES.txt'
+writing manifest file '../../build/pallet_seg/pallet_seg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/derek/work/build/pallet_seg/build
+creating /home/derek/work/build/pallet_seg/build/lib
+creating /home/derek/work/build/pallet_seg/build/lib/pallet_seg
+copying pallet_seg/__init__.py -> /home/derek/work/build/pallet_seg/build/lib/pallet_seg
+copying pallet_seg/solo_detect_all.py -> /home/derek/work/build/pallet_seg/build/lib/pallet_seg
+running install
+running install_lib
+creating /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg
+copying /home/derek/work/build/pallet_seg/build/lib/pallet_seg/__init__.py -> /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg
+copying /home/derek/work/build/pallet_seg/build/lib/pallet_seg/solo_detect_all.py -> /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg
+byte-compiling /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg/solo_detect_all.py to solo_detect_all.cpython-310.pyc
+running install_data
+creating /home/derek/work/install/pallet_seg/share/ament_index
+creating /home/derek/work/install/pallet_seg/share/ament_index/resource_index
+creating /home/derek/work/install/pallet_seg/share/ament_index/resource_index/packages
+copying resource/pallet_seg -> /home/derek/work/install/pallet_seg/share/ament_index/resource_index/packages
+copying package.xml -> /home/derek/work/install/pallet_seg/share/pallet_seg
+copying launch/pallet_seg_altek_cam_launch.py -> /home/derek/work/install/pallet_seg/share/pallet_seg
+running install_egg_info
+Copying ../../build/pallet_seg/pallet_seg.egg-info to /home/derek/work/install/pallet_seg/lib/python3.10/site-packages/pallet_seg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/derek/work/build/pallet_seg/install.log'

@@ -1,0 +1,9 @@
+warning: no files found matching 'mmdet/VERSION'
+warning: no files found matching 'mmdet/.mim/model-index.yml'
+warning: no files found matching 'mmdet/.mim/demo/*/*'
+warning: no files found matching '*.py' under directory 'mmdet/.mim/configs'
+warning: no files found matching '*.yml' under directory 'mmdet/.mim/configs'
+warning: no files found matching '*.sh' under directory 'mmdet/.mim/tools'
+warning: no files found matching '*.py' under directory 'mmdet/.mim/tools'
+/usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(

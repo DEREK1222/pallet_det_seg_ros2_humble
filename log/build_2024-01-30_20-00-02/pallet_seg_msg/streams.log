@@ -1,0 +1,238 @@
+[1.597s] Invoking command in '/home/derek/work/build/pallet_seg_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/derek/work/src/pallet_seg_msg -DCMAKE_INSTALL_PREFIX=/home/derek/work/install/pallet_seg_msg
+[1.637s] -- The C compiler identification is GNU 11.4.0
+[1.686s] -- The CXX compiler identification is GNU 11.4.0
+[1.694s] -- Detecting C compiler ABI info
+[1.754s] -- Detecting C compiler ABI info - done
+[1.765s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.765s] -- Detecting C compile features
+[1.766s] -- Detecting C compile features - done
+[1.769s] -- Detecting CXX compiler ABI info
+[1.837s] -- Detecting CXX compiler ABI info - done
+[1.848s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.848s] -- Detecting CXX compile features
+[1.848s] -- Detecting CXX compile features - done
+[1.850s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.298s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.378s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.409s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.412s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.419s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.547s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.597s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.599s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.688s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.721s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.778s] -- Looking for pthread.h
+[2.836s] -- Looking for pthread.h - found
+[2.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.894s] -- Found Threads: TRUE  
+[3.081s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[3.082s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.210s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.237s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.699s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.352s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.353s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.381s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.381s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.381s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.381s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.407s] -- Found PythonExtra: .so  
+[4.490s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.502s] -- Added test 'lint_cmake' to check CMake code style
+[4.503s] -- Added test 'xmllint' to check XML markup files
+[4.505s] -- Configuring done
+[4.532s] -- Generating done
+[4.534s] -- Build files have been written to: /home/derek/work/build/pallet_seg_msg
+[4.542s] Invoked command in '/home/derek/work/build/pallet_seg_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/derek/work/src/pallet_seg_msg -DCMAKE_INSTALL_PREFIX=/home/derek/work/install/pallet_seg_msg
+[4.544s] Invoking command in '/home/derek/work/build/pallet_seg_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derek/work/build/pallet_seg_msg -- -j16 -l16
+[4.578s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.586s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.594s] [  6%] Built target ament_cmake_python_copy_pallet_seg_msg
+[4.786s] running egg_info
+[4.786s] creating pallet_seg_msg.egg-info
+[4.787s] writing manifest file 'pallet_seg_msg.egg-info/SOURCES.txt'
+[4.790s] writing manifest file 'pallet_seg_msg.egg-info/SOURCES.txt'
+[4.798s] [  9%] [32mBuilding C object CMakeFiles/pallet_seg_msg__rosidl_generator_c.dir/rosidl_generator_c/pallet_seg_msg/msg/detail/pallet_mask__functions.c.o[0m
+[4.805s] [  9%] Built target pallet_seg_msg__cpp
+[4.813s] [  9%] Built target ament_cmake_python_build_pallet_seg_msg_egg
+[4.814s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.814s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.814s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.833s] [ 22%] [32m[1mLinking C shared library libpallet_seg_msg__rosidl_generator_c.so[0m
+[4.867s] [ 22%] Built target pallet_seg_msg__rosidl_generator_c
+[4.875s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.877s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.877s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.017s] [ 35%] [32mBuilding CXX object CMakeFiles/pallet_seg_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pallet_seg_msg/msg/detail/pallet_mask__type_support.cpp.o[0m
+[5.019s] [ 38%] [32mBuilding CXX object CMakeFiles/pallet_seg_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pallet_seg_msg/msg/detail/dds_fastrtps/pallet_mask__type_support.cpp.o[0m
+[5.073s] [ 41%] [32mBuilding CXX object CMakeFiles/pallet_seg_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pallet_seg_msg/msg/pallet_mask__type_support.cpp.o[0m
+[5.078s] [ 45%] [32mBuilding C object CMakeFiles/pallet_seg_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pallet_seg_msg/msg/detail/pallet_mask__type_support.c.o[0m
+[5.087s] [ 48%] [32mBuilding CXX object CMakeFiles/pallet_seg_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pallet_seg_msg/msg/detail/pallet_mask__type_support_c.cpp.o[0m
+[5.111s] [ 51%] [32m[1mLinking C shared library libpallet_seg_msg__rosidl_typesupport_introspection_c.so[0m
+[5.133s] [ 54%] [32mBuilding CXX object CMakeFiles/pallet_seg_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/pallet_seg_msg/msg/pallet_mask__type_support.cpp.o[0m
+[5.137s] [ 54%] Built target pallet_seg_msg__rosidl_typesupport_introspection_c
+[5.157s] [ 58%] [32m[1mLinking CXX shared library libpallet_seg_msg__rosidl_typesupport_c.so[0m
+[5.194s] [ 58%] Built target pallet_seg_msg__rosidl_typesupport_c
+[5.267s] [ 61%] [32m[1mLinking CXX shared library libpallet_seg_msg__rosidl_typesupport_cpp.so[0m
+[5.302s] [ 61%] Built target pallet_seg_msg__rosidl_typesupport_cpp
+[5.325s] [ 64%] [32m[1mLinking CXX shared library libpallet_seg_msg__rosidl_typesupport_fastrtps_c.so[0m
+[5.344s] [ 67%] [32m[1mLinking CXX shared library libpallet_seg_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.352s] [ 70%] [32m[1mLinking CXX shared library libpallet_seg_msg__rosidl_typesupport_introspection_cpp.so[0m
+[5.388s] [ 70%] Built target pallet_seg_msg__rosidl_typesupport_fastrtps_c
+[5.414s] [ 70%] Built target pallet_seg_msg__rosidl_typesupport_fastrtps_cpp
+[5.415s] [ 70%] Built target pallet_seg_msg__rosidl_typesupport_introspection_cpp
+[5.436s] [ 70%] Built target pallet_seg_msg
+[5.456s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.713s] [ 74%] Built target pallet_seg_msg__py
+[5.727s] [ 77%] [32mBuilding C object CMakeFiles/pallet_seg_msg__rosidl_generator_py.dir/rosidl_generator_py/pallet_seg_msg/msg/_pallet_mask_s.c.o[0m
+[5.815s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/pallet_seg_msg/libpallet_seg_msg__rosidl_generator_py.so[0m
+[5.849s] [ 80%] Built target pallet_seg_msg__rosidl_generator_py
+[5.869s] [ 87%] [32mBuilding C object CMakeFiles/pallet_seg_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pallet_seg_msg/_pallet_seg_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[5.869s] [ 87%] [32mBuilding C object CMakeFiles/pallet_seg_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pallet_seg_msg/_pallet_seg_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.870s] [ 90%] [32mBuilding C object CMakeFiles/pallet_seg_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pallet_seg_msg/_pallet_seg_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.948s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.950s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.950s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.986s] [100%] Built target pallet_seg_msg__rosidl_typesupport_fastrtps_c__pyext
+[5.986s] [100%] Built target pallet_seg_msg__rosidl_typesupport_introspection_c__pyext
+[5.993s] [100%] Built target pallet_seg_msg__rosidl_typesupport_c__pyext
+[6.000s] Invoked command in '/home/derek/work/build/pallet_seg_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derek/work/build/pallet_seg_msg -- -j16 -l16
+[6.041s] Invoking command in '/home/derek/work/build/pallet_seg_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/derek/work/build/pallet_seg_msg
+[6.050s] -- Install configuration: ""
+[6.050s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/ament_index/resource_index/rosidl_interfaces/pallet_seg_msg
+[6.051s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg
+[6.051s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg
+[6.051s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/rosidl_generator_c__visibility_control.h
+[6.051s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail
+[6.051s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__functions.h
+[6.051s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__functions.c
+[6.051s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__struct.h
+[6.052s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__type_support.h
+[6.052s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/pallet_mask.h
+[6.052s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/environment/library_path.sh
+[6.052s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/environment/library_path.dsv
+[6.052s] -- Installing: /home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_generator_c.so
+[6.053s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_generator_c.so" to ""
+[6.053s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg
+[6.053s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg
+[6.053s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.053s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail
+[6.053s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__rosidl_typesupport_fastrtps_c.h
+[6.054s] -- Installing: /home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_fastrtps_c.so
+[6.054s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[6.054s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg
+[6.054s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg
+[6.054s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/pallet_mask.hpp
+[6.054s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail
+[6.054s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__builder.hpp
+[6.054s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__struct.hpp
+[6.054s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__traits.hpp
+[6.055s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg
+[6.055s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg
+[6.055s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.055s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail
+[6.055s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/dds_fastrtps
+[6.055s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__rosidl_typesupport_fastrtps_cpp.hpp
+[6.055s] -- Installing: /home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_fastrtps_cpp.so
+[6.055s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.055s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg
+[6.055s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg
+[6.056s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.056s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail
+[6.056s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__rosidl_typesupport_introspection_c.h
+[6.056s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__type_support.c
+[6.056s] -- Installing: /home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_introspection_c.so
+[6.056s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_introspection_c.so" to ""
+[6.056s] -- Installing: /home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_c.so
+[6.056s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_c.so" to ""
+[6.056s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg
+[6.056s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg
+[6.056s] -- Up-to-date: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail
+[6.057s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__rosidl_typesupport_introspection_cpp.hpp
+[6.057s] -- Installing: /home/derek/work/install/pallet_seg_msg/include/pallet_seg_msg/pallet_seg_msg/msg/detail/pallet_mask__type_support.cpp
+[6.057s] -- Installing: /home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_introspection_cpp.so
+[6.057s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[6.057s] -- Installing: /home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_cpp.so
+[6.057s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_typesupport_cpp.so" to ""
+[6.057s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/environment/pythonpath.sh
+[6.057s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/environment/pythonpath.dsv
+[6.057s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg-0.0.0-py3.10.egg-info
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg-0.0.0-py3.10.egg-info/top_level.txt
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/_pallet_seg_msg_s.ep.rosidl_typesupport_c.c
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/_pallet_seg_msg_s.ep.rosidl_typesupport_introspection_c.c
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/_pallet_seg_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.058s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.059s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/__init__.py
+[6.059s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/libpallet_seg_msg__rosidl_generator_py.so
+[6.059s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/msg
+[6.059s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/msg/_pallet_mask_s.c
+[6.059s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/msg/_pallet_mask.py
+[6.059s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/msg/__init__.py
+[6.085s] Listing '/home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg'...
+[6.085s] Compiling '/home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/__init__.py'...
+[6.085s] Listing '/home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/msg'...
+[6.085s] Compiling '/home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/msg/__init__.py'...
+[6.086s] Compiling '/home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/msg/_pallet_mask.py'...
+[6.089s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.089s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.089s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.090s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.090s] -- Installing: /home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.090s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/local/lib/python3.10/dist-packages/pallet_seg_msg/pallet_seg_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.090s] -- Installing: /home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_generator_py.so
+[6.091s] -- Set runtime path of "/home/derek/work/install/pallet_seg_msg/lib/libpallet_seg_msg__rosidl_generator_py.so" to ""
+[6.091s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/msg/PalletMask.idl
+[6.091s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/msg/PalletMask.msg
+[6.091s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/ament_index/resource_index/package_run_dependencies/pallet_seg_msg
+[6.091s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/ament_index/resource_index/parent_prefix_path/pallet_seg_msg
+[6.092s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/environment/ament_prefix_path.sh
+[6.092s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/environment/ament_prefix_path.dsv
+[6.092s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/environment/path.sh
+[6.092s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/environment/path.dsv
+[6.092s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/local_setup.bash
+[6.092s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/local_setup.sh
+[6.093s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/local_setup.zsh
+[6.093s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/local_setup.dsv
+[6.093s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/package.dsv
+[6.093s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/ament_index/resource_index/packages/pallet_seg_msg
+[6.093s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/export_pallet_seg_msg__rosidl_generator_cExport.cmake
+[6.093s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/export_pallet_seg_msg__rosidl_generator_cExport-noconfig.cmake
+[6.094s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/export_pallet_seg_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[6.094s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/export_pallet_seg_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.094s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/export_pallet_seg_msg__rosidl_generator_cppExport.cmake
+[6.094s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/export_pallet_seg_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.094s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/export_pallet_seg_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.095s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msg__rosidl_typesupport_introspection_cExport.cmake
+[6.095s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.095s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msg__rosidl_typesupport_cExport.cmake
+[6.095s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msg__rosidl_typesupport_cExport-noconfig.cmake
+[6.095s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msg__rosidl_typesupport_introspection_cppExport.cmake
+[6.095s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.096s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msg__rosidl_typesupport_cppExport.cmake
+[6.096s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[6.096s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/export_pallet_seg_msg__rosidl_generator_pyExport.cmake
+[6.096s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/export_pallet_seg_msg__rosidl_generator_pyExport-noconfig.cmake
+[6.096s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/rosidl_cmake-extras.cmake
+[6.096s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.097s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.097s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[6.097s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/ament_cmake_export_targets-extras.cmake
+[6.097s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.097s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.097s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msgConfig.cmake
+[6.097s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/cmake/pallet_seg_msgConfig-version.cmake
+[6.098s] -- Installing: /home/derek/work/install/pallet_seg_msg/share/pallet_seg_msg/package.xml
+[6.100s] Invoked command in '/home/derek/work/build/pallet_seg_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/derek/work/build/pallet_seg_msg
